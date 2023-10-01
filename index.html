@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="treasurehunt.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pirata+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="first">LEARN Academy Treasure Hunt Palooza!</h1>
+    <h2 id="second">We Know How to Make a Subheader</h2>
+<hr/>
+<br/>
+<h3 id="third"> RULES</h3>
+<ul>
+    <li>click on each box until you find the treasure</li>
+    <li>don't step on the bomb</li>
+    <li>have fun!</li>
+</ul>
+
+<img src="https://images.unsplash.com/photo-1608924066819-930edc42986a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8dHJlYXN1cmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=900&q=60"/ alt ="treasure map" height ="300px"/>
+
+<table border=1>
+    <tr> 
+        <td id="diamond" onclick="changeToEmoji('diamond')"> diamond </td>
+        <td id="gold" onclick="changeToEmoji('gold')"> gold </td>
+        <td id="scarlet" onclick="changeToEmoji('scarlet')"> scarlet </td>
+    </tr> 
+    <tr> 
+        <td id="0" onclick="map(0)">?</td>
+        <td id="1" onclick="map(1)">?</td>
+        <td id="2" onclick="map(2)">?</td>
+    </tr>
+    <tr> 
+        <td id="3" onclick="map(3)">?</td>
+        <td id="4" onclick="map(4)">?</td>
+        <td id="5" onclick="map(5)">?</td>
+    </tr>
+    <tr> 
+        <td id="6" onclick="map(6)">?</td>
+        <td id="7" onclick="map(7)">?</td>
+        <td id="8" onclick="map(8)">?</td>
+   </tr>
+   <br/>
+   <button type="button" onclick="location.reload()">Restart Game</button>
+
+<script type="text/javascript" src="treasurehunt.js"></script>
+
+</body>
+
+
+</html>
